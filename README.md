@@ -9,7 +9,7 @@ A powerful OCR (Optical Character Recognition) package that uses state-of-the-ar
 #### Prerequisites
 
 1. Install [Ollama](https://ollama.com/)
-2. Pull the required model:
+2. Pull the required models:
 
 ```sh
 ollama pull llama3.2-vision:11b
