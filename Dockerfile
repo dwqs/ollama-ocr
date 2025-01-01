@@ -10,12 +10,13 @@ COPY package*.json ./
 # Copy local directories to the current local directory of our docker image (/app)
 COPY ./src ./src
 COPY ./public ./public
+COPY ./index.html ./index.html
+COPY ./vite.config.ts ./vite.config.ts
 
 # Install node packages, install serve, build the app, and remove dependencies at the end
 RUN npm install \
     && npm install -g serve \
-    && npm run build-docker \
-    && rm -rf node_modules
+    && npm run build-docker
 
 EXPOSE 3000
 
