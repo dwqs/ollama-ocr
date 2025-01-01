@@ -27,8 +27,30 @@ yarn dev or npm run dev
 
 **Or you can run the demo from docker**: `debounce/ollama-ocr`
 
+## Examples
+
+#### Input Image1
+
+![input-image](https://image-static.segmentfault.com/149/814/1498143911-677575ecd6977_fix732)
+
+#### Output Markdown
+
+![output-markdown.png](https://image-static.segmentfault.com/338/339/3383395719-67757691e9b37_fix732)
+
+#### Input Image2
+
+![input-image](https://image-static.segmentfault.com/257/222/2572220334-677579c2747c7_fix732)
+
+#### Output JSON
+
+![output-json.png](https://image-static.segmentfault.com/104/188/1041885248-677579f517f02_fix732)
+
 ## Output Format Details
 
 - **Markdown Format**: The output is a markdown string containing the extracted text from the image.
 - **Text Format**: The output is a plain text string containing the extracted text from the image.
 - **JSON Format**: The output is a JSON object containing the extracted text from the image.
+
+## License
+
+MIT
