@@ -1,6 +1,6 @@
 > inspired by [imanoop7/Ollama-OCR](https://github.com/imanoop7/Ollama-OCR)
 
-## Ollama OCR
+## Ollama OCR for web
 
 A powerful OCR (Optical Character Recognition) package that uses state-of-the-art vision language models through Ollama to extract text from images.
 
