@@ -4,6 +4,27 @@
 
 A powerful OCR (Optical Character Recognition) package that uses state-of-the-art vision language models through Ollama to extract text from images.
 
+## Quick Start
+
+#### Prerequisites
+
+1. Install [Ollama](https://ollama.com/)
+2. Pull the required model:
+
+```sh
+ollama pull llama3.2-vision:11b
+ollama pull llava:13b
+```
+
+Then run following command:
+
+```sh
+git clone git@github.com:dwqs/ollama-ocr.git
+cd ollama-ocr
+yarn or npm i
+yarn dev or npm run dev
+```
+
 ## Output Format Details
 
 - **Markdown Format**: The output is a markdown string containing the extracted text from the image.
