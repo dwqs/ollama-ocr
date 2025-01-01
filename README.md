@@ -25,6 +25,8 @@ yarn or npm i
 yarn dev or npm run dev
 ```
 
+**Or you can run the demo from docker**: `debounce/ollama-ocr`
+
 ## Output Format Details
 
 - **Markdown Format**: The output is a markdown string containing the extracted text from the image.
