@@ -42,8 +42,7 @@ import prompts from './prompts'
 
 // eslint-disable-next-line
 // @ts-ignore
-const apiHost = process.env.apiHost
-const ollama = new Ollama({ host: `http://${apiHost}:11434` })
+const ollama = new Ollama({ host: `http://127.0.0.1:11434` })
 // eslint-disable-next-line
 let loading: any = null
 // eslint-disable-next-line
@@ -92,7 +91,6 @@ watch([type, model], () => {
 })
 
 onMounted(async () => {
-  console.log('apiHost', apiHost)
   document.addEventListener('paste', handlePaste)
   highlighter.value = await createHighlighter({
     themes: ['vitesse-dark'],
