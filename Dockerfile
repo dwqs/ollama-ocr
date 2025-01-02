@@ -16,7 +16,8 @@ COPY ./vite.config.ts ./vite.config.ts
 # Install node packages, install serve, build the app, and remove dependencies at the end
 RUN npm install \
     && npm install -g serve \
-    && npm run build-only
+    && npm run build-only \
+    && rm -rf node_modules
 
 EXPOSE 3000
 
