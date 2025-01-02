@@ -80,6 +80,10 @@ const models = [
     label: 'llava:13b',
     value: 'llava:13b',
   },
+  {
+    label: 'minicpm-v:8b',
+    value: 'minicpm-v:8b',
+  },
 ]
 
 const isJSON = computed(() => type.value === 'json')

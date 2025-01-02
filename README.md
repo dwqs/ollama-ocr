@@ -6,8 +6,9 @@ A powerful OCR (Optical Character Recognition) package that uses state-of-the-ar
 
 ## Supported Models
 
-- **LLaVA 13b**: Efficient vision-language model for real-time processing (LLaVa model can generate wrong output sometimes)
-- **Llama 3.2 Vision 11b**: Advanced model with high accuracy for complex documents
+- **LLaVA 13b**: A multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding, achieving impressive chat capabilities mimicking spirits of the multimodal GPT-4. (LLaVa model can generate wrong output sometimes)
+- **Llama 3.2 Vision 11b**: Instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image
+- **MiniCPM-V 2.6**: A GPT-4V Level MLLM for Single Image, Multi Image and Video on Your Phone
 
 ## Quick Start
 
@@ -19,6 +20,7 @@ A powerful OCR (Optical Character Recognition) package that uses state-of-the-ar
 ```sh
 ollama pull llama3.2-vision:11b
 ollama pull llava:13b
+ollama pull minicpm-v:8b
 ```
 
 Then run following command:
