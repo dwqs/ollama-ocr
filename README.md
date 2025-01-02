@@ -4,6 +4,11 @@
 
 A powerful OCR (Optical Character Recognition) package that uses state-of-the-art vision language models through Ollama to extract text from images.
 
+## Supported Models
+
+- **LLaVA 13b**: Efficient vision-language model for real-time processing (LLaVa model can generate wrong output sometimes)
+- **Llama 3.2 Vision 11b**: Advanced model with high accuracy for complex documents
+
 ## Quick Start
 
 #### Prerequisites
