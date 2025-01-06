@@ -34,7 +34,7 @@ yarn dev or npm run dev
 
 ## Docker Supports
 
-**Or you can run the demo from docker**: `debounce/ollama-ocr`
+**you can run the demo from docker**: `debounce/ollama-ocr`
 
 ## Examples
 
